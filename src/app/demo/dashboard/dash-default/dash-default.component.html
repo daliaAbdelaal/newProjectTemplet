@@ -1,0 +1,162 @@
+
+<div class="row ">
+    <div class="col-12">
+
+        <section id="section_1">
+            <div class="row data_num bg-white py-4 pr-3 my-3">
+
+                <div class="col-xl-3 col-lg-6 pb-xl-0 pb-3">
+                    <div class="row card-num first py-3 ml-0 ml-lg-2">
+                        <div class="col-6 ">
+                            <h5>عدد اجمالي الدخول</h5>
+                            <h6>27131</h6>
+                        </div>
+                        <div class="col-6  ">
+                            <div class="icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 pb-xl-0 pb-3">
+                    <div class="row card-num sec py-3 ml-0 ml-lg-2 ">
+                        <div class="col-6">
+                            <h5>عدد اجمالي الدخول</h5>
+                            <h6>27131</h6>
+                        </div>
+                        <div class="col-6">
+                            <div class="icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 pb-xl-0 pb-3">
+                    <div class=" row card-num third py-3 ml-0 ml-lg-2">
+                        <div class="col-6">
+                            <h5>عدد اجمالي الدخول</h5>
+                            <h6>27131</h6>
+                        </div>
+                        <div class="col-6">
+                            <div class="icon">
+                                <i class="fa-regular fa-calendar"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 pb-xl-0 pb-3">
+                    <div class="row card-num fourth py-3 ml-0 ml-lg-2">
+                        <div class="col-6">
+                            <h5>عدد اجمالي الدخول</h5>
+                            <h6>27131</h6>
+                        </div>
+                        <div class="col-6">
+                            <div class="icon">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section_2">
+            <div class="row">
+
+                <div class="col-xl-4 col-lg-6 mb-3">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3">
+                            تحليل معدل رصد الدخول خلال الفترة وتوقع 
+                        الدخول خلال 3 ايام القادة       
+                        </h6>
+                        
+                        <div>
+                            <canvas id="linechart"></canvas>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 mb-3">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3 pt-2">
+                            نسبة الدخول حسب الكاميرات
+                        </h6>
+                        <div >
+                            <canvas id="doughnutchart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 mb-3">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3 pt-2">
+                            نسبة الدخول حسب الكاميرات
+                        </h6>
+                        <div >
+                            <canvas id="barchart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6  mb-3">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3">
+                            تحليل معدل رصد الدخول خلال الفترة وتوقع 
+                        الدخول خلال 3 ايام القادة       
+                        </h6>
+                        
+                        <div>
+                            <canvas id="linechart2"></canvas>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 mb-3 ">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3 pt-2">
+                            نسبة الدخول حسب الكاميرات
+                        </h6>
+                        <div >
+                            <canvas id="doughnutchart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 mb-3 ">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3 pt-2">
+                            نسبة الدخول حسب الكاميرات
+                        </h6>
+                        <div >
+                            <canvas id="barchart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 mb-3">
+                    <div class="chart-container p-3">
+                        <h6 class="px-3">
+                            تحليل معدل رصد الدخول خلال الفترة وتوقع 
+                        الدخول خلال 3 ايام القادة       
+                        </h6>
+                        
+                        <div>
+                            <canvas id="linechart3"></canvas>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8  mb-3">
+                    <div class="chart-container px-3 pt-3">
+                        <app-card cardTitle="الخريطه التفاعليه" [options]="false">
+                            <agm-map [latitude]="21.217319" [longitude]="72.866472"></agm-map>
+                        </app-card>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+       
+    </div>
+</div>

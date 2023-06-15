@@ -1,0 +1,100 @@
+#section_1
+{
+    .data_num
+    {
+        border-radius: 10px;
+
+        .card-num
+        {
+            border-radius: 10px;
+            h6
+            {
+                text-align: right;
+            }
+            h5,h6
+            {
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .icon
+            {
+                line-height: 50px;
+                font-size: 25px;
+                text-align: left;
+            }
+        
+        }
+        .first
+        {
+            background-color: #f4f1e7;
+            color: #6a6147;
+            border-right: 1rem solid #6a6147;
+        }
+        .sec
+        {
+            background-color: #c3ffcd;
+            color: #1f5528;
+            border-right: 1rem solid #1f5528;
+        }
+        .third
+        {
+            background-color: #e2f7ff;
+            color: #5c6064;
+            border-right: 1rem solid #5c6064;
+        }
+        .fourth
+        {
+            background-color: #fff6dd;
+            color: #b07c48;
+            border-right: 1rem solid #b07c48;
+        }
+    }
+}
+
+#section_2
+{
+    .chart-container
+    {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+        h6
+        {
+           font-size: 14px;
+           font-weight: bold;
+           width: 85%;
+           text-align: right;
+           padding-bottom: 10px;
+        } 
+        
+        &::before
+        {
+            content: "";
+            position: absolute;
+            right: 15px;
+            background-color: #ff305b;
+            padding: 4px 0 5px;
+            width: 12px;
+            height: 40px;
+            border-radius: 12rem 0 0 12rem;
+            background-color: #b07c48;
+        }
+    }
+}
+
+agm-map.sebm-google-map-container.ng-tns-c113-0 {
+    height: 240px;
+}
+// app-card
+// {
+//     background-color: #fff;
+//     border-radius: 15px;
+//     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+// }
+
+
+
+
+
+
